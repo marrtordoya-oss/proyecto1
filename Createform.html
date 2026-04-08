@@ -5,7 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+
+
+ <style>
+         body {
+            background-color: #f3f4f6;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+
+
+  }
+        input{
+            margin: 8px;
+            padding: 15px;
+            border-radius: 15px;
+            background-color: #2563eb;
+           transition: 0.3s;
+           
+
+    
+
+    border: 3px solid black; /* ← agrega color */
+
+        }
+        input:hover{
+         transform: scale(1.03);
+
+
+        }
+       
+    
+  
+    </style>
+<body><center>
     <form action="createtareas.php" method="post">
         <label for="">id</label>
         <input type="text" name="id"><br>
@@ -15,7 +50,8 @@
         <input type="text" name="estado"><br>
         <label for="">Descripcion:</label>
         <input type="text" name="descripcion"><br>
-    </form>
+    </form>  
+</center>
 </body>
 </html>
 
