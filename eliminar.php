@@ -7,7 +7,7 @@
 </head>
 <body>
     <a href="eliminar.php?id=<?php echo $fila['id']; ?>" onclick="return confirm('Seguro que quieres eliminarrr?')">
-    Eliminar
+       
 </a>
     <?php
 include("conexion.php");
